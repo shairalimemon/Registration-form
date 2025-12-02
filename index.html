@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <center>
+      <img src="images.png" alt="">
+      <h1><i>Saylani Online Accadmy</i></h1>
+      <form action="login.html" method="post">
+        <table bgcolor="lightgray" cellspacing="5" cellpadding="5"  >
+            <tr>
+                <td colspan="2" align="center">Student Regsister Form</td>
+            </tr>
+            
+            <tr>
+                <td><Label> Name :</Label></td>
+                <td><input type="text" placeholder="Name"></td>
+            </tr>
+             <tr>
+                <td><Label>Father Name :&emsp;</Label></td>
+                <td><input type="text" placeholder="Father Name"></td>
+            </tr>
+            <tr>
+                <td><Label>Password :&emsp;</Label></td>
+                <td><input type="password" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td><Label>Address :&emsp;</Label></td>
+                <td><input type="text" placeholder="Address"></td>
+            </tr>
+            <tr>
+                <td><Label>gender</Label></td>
+                <td>
+                    <input type="radio" name="gender" id="Male"><label for="Male">Male</label> 
+                    <input type="radio" name="gender" id="Female"><label for="Female">Female</label> 
+                </td>
+            </tr>
+             <tr>
+                <td><Label>Language :</Label></td>
+                <td>
+                    <input type="checkbox" name="" id="">Urdu
+                    <input type="checkbox" name="" id="">Sindhi
+                    <input type="checkbox" name="" id="">English
+                    <input type="checkbox" name="" id="">Chinese
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Date of birth :</label></td>
+                <td>
+                    <input type="date" name="" id="">
+                </td>
+            </tr>
+             
+             <tr>
+                <td><Label>Email Id : :&emsp;</Label></td>
+                <td><input type="email" placeholder="Email ID"></td>
+            </tr>
+             <tr>
+                <td><Label>Mobile Number :&emsp;</Label></td>
+                <td><input type="number" placeholder="Mobile Number">
+                </td>
+            </tr>
+            
+             <tr>
+                 <td><label>Country :</label></td>
+                <td>
+                    <select name="country">
+                        <option value="">Select Country</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td><Label>Hobbies :&emsp;</Label></td>
+                 <td>
+                    <select name="Hobbies" size="4" >
+                        <option value="">Hobbies</option>
+                        <option value="Cricket">Cricket</option>
+                        <option value="Coding">Coding</option>
+                        <option value="Football">Football</option>
+                        <option value="Hokey">Hokey</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label for="">File Upload :</label>
+
+                </td>
+               <td>
+                <input type="file" name="images" id="">
+                <button>Upload</button>
+               </td>
+            </tr>
+             <tr>
+                <td colspan="1"></td>
+                <td > <input type="submit" placeholder="Submit Form"></td>
+            </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
